@@ -1,79 +1,79 @@
 Open main1.py. Before running it, what do you expect this program to do? 
-
+I think this program will greet me and show the question "what is my favorite color".
 Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
 
 What do you think the program did with what you typed?
-
+I think the program saved what I typed as if I made some new changes to the program.
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+Main2.py is different then Main1.py becuase it has another line of text that probably changes the font color of anything you type in a certain space.
 What do you think the color = input() will do? 
-
+I think the color input will allow me to choice the color I want to type in.
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
+The program did not do what I expected it to do instead the program took the answer I gave for the question and repeated it back to me.
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
-
+main3.py is different then main2.py becuase it looks like it will give a conditional answer whether I put in the right or wrong answer to the question.
 What is happening on lines 11–14? 
-
+the program is setting up answers to what ever response is given for the question.
 Why are lines 12 and 14 indented? 
-
+Those two lines are indented becuase they are the functions that the program is useing to answer the question that it is giving.
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+If you don't capitalize red as your answer the program will see that as a wrong answer even though that is the programed answer to the question.
 What does this tell you about "color"?
-
+It tells me that color only refers to Red and not red.
 
 
 Open main4.py. Before running it, describe how this is different than main3.py. 
-
+main4.py is different then main3.py. because it fixes the problem of getting the question wrong for putting red intead of Red as your answer by making color equal red and Red.
 What problem is this trying to solve? 
-
+This is trying to solve the problem of not taking into account how a person types their answer to the question.
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
+If you use another way type red thats not red or Red the program doesnt count the answer given as the right answer to the problem.
 
 
 Open main5.py. What do you expect line 11 to do? 
-
+I think line 11 will make it so the only vaild answer to the question is red.
 What problem is it trying to solve? 
-
+I don't know what problem this change solves.
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
+If you add spaces to your answer the program will count it wrong.
 
 
 Open main6.py. How is line 11 different than main5.py? 
-
+Line 11 in main6.py. is differnt the line 11 in main5.py because it includes strip() in line 11 to define the answer to the question. 
 What would you guess .strip() is doing? 
-
+I think strip() doesnt let you use spaces in your answer.
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
+I found out that if you add punctuation marks in your answer the program will count it wrong.
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+I think main7.py will be different then main6.py because it includes a hint aspect to the question.
 What is the purpose of line 11? 
-
+Line 11 is used to fix any flaw in the programs logic.
 Run the program and answer the question.
 
 
 
 Open main8.py. What is the purpose of line 11? 
-
+Line 11 repeates the question if you put in the wrong answer until you put in the right answer.
 Why are lines 12–19 indented? 
-
+Lines 12 through 19 are indented becuase those lines are the programs response to an answer to the question.
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
+I think if that change were made the program would have the question be the answer 
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 
 
 
 Open main9.py. What is happening on line 12? 
-
+In line 12 the program is setting up how to answer questions.
 What is the purpose of “count”? 
-
+I think count will be used to see how many times it takes someone to put in the right answer to the question.
 What is happening on line 22? 
-
+In line 22 the program is telling you how many times it took you to come up with the correct answer.
 Run the program.
 
 
@@ -81,4 +81,4 @@ Run the program.
 
 Commit your changes and push them back to the repository. 
 
-Did you do the extra credit?
+Did you do the extra credit? Yes
